@@ -1,6 +1,6 @@
 ## cd
 - Command Line with No Argument<be>
-
+![Image](ls_directory.jpg)
 - Command with a path to a directory as an argument<br>
 - Command with a path to a file as an argument<br>
 ## ls
