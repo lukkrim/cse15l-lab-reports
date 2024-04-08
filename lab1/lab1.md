@@ -18,7 +18,7 @@
 - Command with a path to a file as an argument<br>
 <img src="ls_file.png" width = 50% height = 50%><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
-**Absolute path after**: `/Users/wanfranek/lecture1/README`<br>
+**Absolute path after**: `/Users/wanfranek/lecture1`<br>
 **Why the output**: `ls` shows the content of a directory, but the argument here is the path to a filename.<br>
 **Is it an error?**: The output is not an error because when you try to `ls [filename]`, it will just repeat the name of the file and any relative information requested.
 
