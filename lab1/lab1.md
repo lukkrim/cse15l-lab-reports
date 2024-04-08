@@ -60,17 +60,17 @@
   
 - Command with a path to a directory as an argument<br>
 <img src="cat_directory.png" width = 50% height = 50%><br>
-**Absolute path before**: `/Users/wanfranek/lecture1/message`<br>
-**Absolute path after**: <br>
-**Why the output**: It goes in to the message directory that is inside the lecture 1 folder<br>
-**Is it an error?**: The output is not an error.
+**Absolute path before**: `/Users/wanfranek/lecture1`<br>
+**Absolute path after**: N/A cause error<br>
+**Why the output**: cat cannot show the content of a directory, only ls can.<br>
+**Is it an error?**: The output is an error because cat only reads the content of the file and does not accept a directory path as the argument.
 
   
 - Command with a path to a file as an argument<br>
 <img src="cat_filename.png" width = 50% height = 50%><br>
-**Absolute path before**: `/Users/wanfranek/lecture1/message`<br>
-**Absolute path after**: <br>
-**Why the output**: It goes in to the message directory that is inside the lecture 1 folder<br>
+**Absolute path before**: `/Users/wanfranek/lecture1`<br>
+**Absolute path after**: `/Users/wanfranek/lecture1/README`<br>
+**Why the output**: It find the README file under the lecture 1 directory and reads its content.<br>
 **Is it an error?**: The output is not an error.
 
   
