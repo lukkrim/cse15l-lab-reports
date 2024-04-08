@@ -2,7 +2,8 @@
 - Command Line with No Argument<br>
 <img src="ls.png" width = 50% height = 50%><br>
 **Absolute path**: /Users/wanfranek/lecture1<br>
-**Why the output**: 
+**Why the output**: It simply displays the content inside lecture 1 directory<br>
+
 
 
 - Command with a path to a directory as an argument<br>
