@@ -45,5 +45,8 @@
   
 ## cat
 - Command Line with No Argument<br>
+<img src="cat_noArg.png" width = 50% height = 50%><br>
 - Command with a path to a directory as an argument<br>
+<img src="cat_directory.png" width = 50% height = 50%><br>
 - Command with a path to a file as an argument<br>
+<img src="cat_filename.png" width = 50% height = 50%><br>
