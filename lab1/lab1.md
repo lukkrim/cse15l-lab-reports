@@ -1,21 +1,24 @@
 ## `ls`
 - Command Line with No Argument<br>
 <img src="ls.png" width = 50% height = 50%><br>
-**Absolute path**: `/Users/wanfranek/lecture1`<br>
+**Absolute path before**: `/Users/wanfranek/lecture1`<br>
+**Absolute path after**: No change<br>
 **Why the output**: It simply displays the content inside lecture 1 directory<br>
 **Is it an error?**: The output is not an error because Hello.class, Hello.java, README, and messages all fall under the lecture 1 directory.
 
 
 - Command with a path to a directory as an argument<br>
 <img src="ls_directory.png" width = 50% height = 50%><br>
-**Absolute path**: `/Users/wanfranek/lecture1`<br>
+**Absolute path before**: `/Users/wanfranek/lecture1`<br>
+**Absolute path after**: No change<br>
 **Why the output**: It functions the same as the no argument example. It just uses an abosulete path to represent we want to see the content of the current working directory lecture 1.<br>
 **Is it an error?**: The output is not an error because Hello.class, Hello.java, README, and messages all fall under the lecture 1 directory.
 
 
 - Command with a path to a file as an argument<br>
 <img src="ls_file.png" width = 50% height = 50%><br>
-**Absolute path**: `/Users/wanfranek/lecture1/README`<br>
+**Absolute path before**: `/Users/wanfranek/lecture1`<br>
+**Absolute path after**: `/Users/wanfranek/lecture1/README`<br>
 **Why the output**: `ls` shows the content of a directory, but the argument here is the path to a filename.<br>
 **Is it an error?**: The output is not an error because when you try to `ls [filename]`, it will just repeat the name of the file and any relative information requested.
 
@@ -24,29 +27,47 @@
 ## `cd`
 - Command Line with No Argument<br>
 <img src="cd_noArg.png" width = 50% height = 50%><br>
-**Absolute path**: `~/`<br>
+**Absolute path before**: `/Users/wanfranek/lecture1`<br>
+**Absolute path after**: `~/`<br>
 **Why the output**: When no argument is given, the user will return to the home directory<br>
 **Is it an error?**: The output is not an error because `cd ~` is the command executed when no argument is given.
 
   
 - Command with a path to a directory as an argument<br>
 <img src="cd_directory.png" width = 50% height = 50%><br>
-**Absolute path**: `/Users/wanfranek/lecture1/message`<br>
+**Absolute path before**: `/Users/wanfranek/lecture1`<br>
+**Absolute path after**: `/Users/wanfranek/lecture1/messages`<br>
 **Why the output**: It goes in to the message directory that is inside the lecture 1 folder<br>
 **Is it an error?**: The output is not an error.
 
   
 - Command with a path to a file as an argument<br>
 <img src="cd_filename.png" width = 50% height = 50%><br>
-**Absolute path**: `/Users/wanfranek/lecture1/README`<br>
+**Absolute path before**: `/Users/wanfranek/lecture1`<br>
+**Absolute path after**: No path cause error<br>
 **Why the output**: You can only `cd` into a directory but not a file<br>
 **Is it an error?**: The ouptu is an error. The picture above shows that `cd` only suports a directory name as a argument.
 
   
-## cat
+## `cat`
 - Command Line with No Argument<br>
 <img src="cat_noArg.png" width = 50% height = 50%><br>
+**Absolute path before**: `/Users/wanfranek/lecture1/message`<br>
+**Why the output**: It goes in to the message directory that is inside the lecture 1 folder<br>
+**Is it an error?**: The output is not an error.
+
+  
 - Command with a path to a directory as an argument<br>
 <img src="cat_directory.png" width = 50% height = 50%><br>
+**Absolute path before**: `/Users/wanfranek/lecture1/message`<br>
+**Why the output**: It goes in to the message directory that is inside the lecture 1 folder<br>
+**Is it an error?**: The output is not an error.
+
+  
 - Command with a path to a file as an argument<br>
 <img src="cat_filename.png" width = 50% height = 50%><br>
+**Absolute path before**: `/Users/wanfranek/lecture1/message`<br>
+**Why the output**: It goes in to the message directory that is inside the lecture 1 folder<br>
+**Is it an error?**: The output is not an error.
+
+  
