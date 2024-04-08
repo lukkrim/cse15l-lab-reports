@@ -1,6 +1,7 @@
 ## `ls`
 - Command Line with No Argument<br>
-<img src="ls.png" width = 50% height = 50%><br>
+![Image](ls.png)
+<!--<img src="ls.png" width = 50% height = 50%><br>-->
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: `/Users/wanfranek/lecture1`<br>
 **Why the output**: It simply displays the content inside lecture 1 directory<br>
