@@ -1,7 +1,6 @@
 ## `ls`
 - Command Line with No Argument<br>
-![Image](ls.png)
-<!--<img src="ls.png" width = 50% height = 50%><br>-->
+<img src="ls.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: `/Users/wanfranek/lecture1`<br>
 **Why the output**: It simply displays the content inside lecture 1 directory<br>
@@ -17,7 +16,7 @@
 
 
 - Command with a path to a file as an argument<br>
-<img src="ls_file.png" width = 50% height = 50%><br>
+<img src="ls_file.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: `/Users/wanfranek/lecture1`<br>
 **Why the output**: `ls` shows the content of a directory, but the argument here is the path to a filename.<br>
@@ -27,7 +26,7 @@
   
 ## `cd`
 - Command Line with No Argument<br>
-<img src="cd_noArg.png" width = 50% height = 50%><br>
+<img src="cd_noArg.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: `~/`<br>
 **Why the output**: When no argument is given, the user will return to the home directory<br>
@@ -35,7 +34,7 @@
 
   
 - Command with a path to a directory as an argument<br>
-<img src="cd_directory.png" width = 50% height = 50%><br>
+<img src="cd_directory.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: `/Users/wanfranek/lecture1/messages`<br>
 **Why the output**: It goes in to the message directory that is inside the lecture 1 folder<br>
@@ -43,7 +42,7 @@
 
   
 - Command with a path to a file as an argument<br>
-<img src="cd_filename.png" width = 50% height = 50%><br>
+<img src="cd_filename.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: No path cause error<br>
 **Why the output**: You can only `cd` into a directory but not a file<br>
@@ -52,7 +51,7 @@
   
 ## `cat`
 - Command Line with No Argument<br>
-<img src="cat_noArg.png" width = 50% height = 50%><br>
+<img src="cat_noArg.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: N/A because it's in the mode of reading data from standard input adn write them to standard ouput<br>
 **Why the output**: It basically does nothing because it just repeat what's the user typed in. The cat command will end when user hit control+D to indicate the end of the file<br>
@@ -60,7 +59,7 @@
 
   
 - Command with a path to a directory as an argument<br>
-<img src="cat_directory.png" width = 50% height = 50%><br>
+<img src="cat_directory.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: N/A cause error<br>
 **Why the output**: cat cannot show the content of a directory, only ls can.<br>
@@ -68,7 +67,7 @@
 
   
 - Command with a path to a file as an argument<br>
-<img src="cat_filename.png" width = 50% height = 50%><br>
+<img src="cat_filename.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: `/Users/wanfranek/lecture1/README`<br>
 **Why the output**: It find the README file under the lecture 1 directory and reads its content.<br>
