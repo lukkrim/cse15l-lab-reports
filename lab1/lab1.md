@@ -52,14 +52,16 @@
 ## `cat`
 - Command Line with No Argument<br>
 <img src="cat_noArg.png" width = 50% height = 50%><br>
-**Absolute path before**: `/Users/wanfranek/lecture1/message`<br>
-**Why the output**: It goes in to the message directory that is inside the lecture 1 folder<br>
+**Absolute path before**: `/Users/wanfranek/lecture1`<br>
+**Absolute path after**: N/A because it's in the mode of reading data from standard input adn write them to standard ouput<br>
+**Why the output**: It basically does nothing because it just repeat what's the user typed in. The cat command will end when user hit control+D to indicate the end of the file<br>
 **Is it an error?**: The output is not an error.
 
   
 - Command with a path to a directory as an argument<br>
 <img src="cat_directory.png" width = 50% height = 50%><br>
 **Absolute path before**: `/Users/wanfranek/lecture1/message`<br>
+**Absolute path after**: <br>
 **Why the output**: It goes in to the message directory that is inside the lecture 1 folder<br>
 **Is it an error?**: The output is not an error.
 
@@ -67,6 +69,7 @@
 - Command with a path to a file as an argument<br>
 <img src="cat_filename.png" width = 50% height = 50%><br>
 **Absolute path before**: `/Users/wanfranek/lecture1/message`<br>
+**Absolute path after**: <br>
 **Why the output**: It goes in to the message directory that is inside the lecture 1 folder<br>
 **Is it an error?**: The output is not an error.
 
