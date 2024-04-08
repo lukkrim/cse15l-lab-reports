@@ -9,7 +9,7 @@
 
 
 - Command with a path to a directory as an argument<br>
-<img src="ls_directory.png" width = 50% height = 50%><br>
+<img src="ls_directory.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: `/Users/wanfranek/lecture1`<br>
 **Why the output**: It functions the same as the no argument example. It just uses an abosulete path to represent we want to see the content of the current working directory lecture 1.<br>
