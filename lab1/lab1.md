@@ -24,16 +24,16 @@
 ## cd
 - Command Line with No Argument<br>
 <img src="cd_noArg.png" width = 50% height = 50%><br>
-**Absolute path**: /Users/wanfranek/lecture1<br>
-**Why the output**: It simply displays the content inside lecture 1 directory<br>
-**Is it an error?**: The output is not an error because Hello.class, Hello.java, README, and messages all fall under the lecture 1 directory.
+**Absolute path**: ~/<br>
+**Why the output**: When no argument is given, the user will return to the home directory<br>
+**Is it an error?**: The output is not an error because cd ~ is the command executed when no argument is given.
 
   
 - Command with a path to a directory as an argument<br>
 <img src="cd_directory.png" width = 50% height = 50%><br>
-**Absolute path**: /Users/wanfranek/lecture1<br>
-**Why the output**: It simply displays the content inside lecture 1 directory<br>
-**Is it an error?**: The output is not an error because Hello.class, Hello.java, README, and messages all fall under the lecture 1 directory.
+**Absolute path**: /Users/wanfranek/lecture1/message<br>
+**Why the output**: It goes in to the message directory that is inside the lecture 1 folder<br>
+**Is it an error?**: The output is not an error.
 
   
 - Command with a path to a file as an argument<br>
