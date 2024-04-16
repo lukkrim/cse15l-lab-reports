@@ -44,3 +44,12 @@ Revelant fields of the method:<br>
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why**<br>
 Revelant fields of the class before calling: `output = "Samson: Hello\n`<br>
 Revelant fields of the class after calling: `output = "Samson: Hello\n"Alex: BOOM`<br><br>
+
+## Part 2
+On the command line of your computer, run ls with the absolute path to the private key for your SSH key for logging into ieng6.<br>
+
+
+On the command line of the ieng6 machine, run ls with the absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6 using ssh-copy-id, so it should be a path on ieng6's file system).<br>
+
+
+A terminal interaction where you log into your ieng6 account without being asked for a password.<br>
