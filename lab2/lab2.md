@@ -47,13 +47,13 @@ Revelant fields of the class after calling: `output = "Samson: Hello\n"Alex: BOO
 
 ## Part 2
 On the command line of your computer, run ls with the absolute path to the private key for your SSH key for logging into ieng6.<br>
-<img src = private.png><br><br>
+<img src = "private.png"><br><br>
 
 On the command line of the ieng6 machine, run ls with the absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6 using ssh-copy-id, so it should be a path on ieng6's file system).<br>
-<img src = public.png><br><br>
+<img src = "public.png"><br><br>
 
 A terminal interaction where you log into your ieng6 account without being asked for a password.<br>
-<img src = no_password.png><br><br>
+<img src = "no_password.png"><br><br>
 
 ## Part 3
 I learned how to create public and private key that uses RSA encryption with `ssh key-gen` command.<br>
