@@ -11,7 +11,9 @@ Output 2<br>
 The handleRequest function is called everytime the page is refreshed<br>
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**<br>
 For my function, the argument and field valeus are assigned to the following:<br>
-`URL url` = http://localhost:4000/add-message?s=Hello&user=Samson<br>
+Revelant argument: `URL url` = http://localhost:4000/add-message?s=Hello&user=Samson<br>
+Revelant fields of the class before calling: `output = ""`<br>
+Revelant fields of the class after calling: `output = "Samson: Hello\n"`<br>
 `String[] parameter = ["s", "Hello&user", "Samson"]`<br>
 `String cateS = "s"`<br>
 `String middlePString = "Hello&user"`<br>
