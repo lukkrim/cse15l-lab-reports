@@ -8,7 +8,7 @@ Output 1<br>
 Output 2<br>
 <img src = "Samson.png" width = 400 height = 100><br><br>
 **Which methods in your code are called?**<br>
-The handleRequest function is called everytime the page is refreshed<br>
+The handleRequest function is called everytime the page is refreshed<br><br>
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**<br>
 For my function, the argument and field valeus are assigned to the following:<br>
 Revelant argument: `URL url` = http://localhost:4000/add-message?s=Hello&user=Samson<br>
@@ -20,13 +20,15 @@ Revelant fields of the method:<br>
 `String middlePString = "Hello&user"`<br>
 `String userInput = "Samson"`<br>
 `String strInput = "Hello"`<br>
-`String cateUser = "user"`<br>
+`String cateUser = "user"`<br><br>
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why**<br>
-
+Revelant fields of the class before calling: `output = ""`<br>
+Revelant fields of the class after calling: `output = "Samson: Hello\n"`<br><br
+                                                                              >
 Output 3<br>
 <img src = "Alex.png" width = 400 height = 100><br><br>
 **Which methods in your code are called?**<br>
-The handleRequest function is called everytime the page is refreshed<br>
+The handleRequest function is called everytime the page is refreshed<br><br>
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**<br>
 For my function, the argument and field valeus are assigned to the following:<br>
 Revelant argument: `URL url` = http://localhost:4000/add-message?s=BOOM&user=Alex<br>
@@ -38,5 +40,7 @@ Revelant fields of the method:<br>
 `String middlePString = "BOOM&user"`<br>
 `String userInput = "Alex"`<br>
 `String strInput = "BOOM"`<br>
-`String cateUser = "user"`<br>
+`String cateUser = "user"`<br><br>
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why**<br>
+Revelant fields of the class before calling: `output = "Samson: Hello\n`<br>
+Revelant fields of the class after calling: `output = "Samson: Hello\n"Alex: BOOM`<br><br>
