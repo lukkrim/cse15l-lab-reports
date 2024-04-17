@@ -61,7 +61,7 @@
 - Command with a path to a directory as an argument<br>
 <img src="cat_directory.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
-**Absolute path after**: N/A cause error<br>
+**Absolute path after**: `/Users/wanfranek/lecture1`<br>
 **Why the output**: `cat` cannot show the content of a directory, only `ls` can.<br>
 **Is it an error?**: The output is an error because `cat` only reads the content of the file and does not accept a directory path as the argument.
 
