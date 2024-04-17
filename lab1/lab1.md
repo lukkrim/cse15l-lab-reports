@@ -3,16 +3,16 @@
 <img src="ls.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: `/Users/wanfranek/lecture1`<br>
-**Why the output**: It simply displays the content inside lecture 1 directory<br>
-**Is it an error?**: The output is not an error because Hello.class, Hello.java, README, and messages all fall under the lecture 1 directory.
+**Why the output**: It simply displays the content inside `lecture1` directory<br>
+**Is it an error?**: The output is not an error because `Hello.class`, `Hello.java`, `README`, and `messages` all fall under the lecture 1 directory.
 
 
 - Command with a path to a directory as an argument<br>
 <img src="ls_directory.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: `/Users/wanfranek/lecture1`<br>
-**Why the output**: It functions the same as the no argument example. It just uses an abosulete path to represent we want to see the content of the current working directory lecture 1.<br>
-**Is it an error?**: The output is not an error because Hello.class, Hello.java, README, and messages all fall under the lecture 1 directory.
+**Why the output**: It functions the same as the no argument example. It just uses an abosulete path to represent we want to see the content of the current working directory `lecture1`.<br>
+**Is it an error?**: The output is not an error because `Hello.class`, `Hello.java`, `README`, and `messages` all fall under the lecture 1 directory.
 
 
 - Command with a path to a file as an argument<br>
