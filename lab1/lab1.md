@@ -53,7 +53,7 @@
 - Command Line with No Argument<br>
 <img src="cat_noArg.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
-**Absolute path after**: N/A because it's in the mode of reading data from standard input adn write them to standard ouput<br>
+**Absolute path after**: N/A because it's in the mode of reading data from standard input adn write them to standard ouput. If the user hit control+D to terminate it from reading data, the user will be in the same directory as before<br>
 **Why the output**: It basically does nothing because it just repeat what's the user typed in. The `cat` command will end when user hit control+D to indicate the end of the file<br>
 **Is it an error?**: The output is not an error.
 
