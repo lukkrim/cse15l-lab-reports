@@ -11,7 +11,7 @@
 <img src="ls_directory.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: `/Users/wanfranek/lecture1`<br>
-**Why the output**: It functions the same as the no argument example. It just uses an abosulete path to represent we want to see the content of the current working directory `lecture1`.<br>
+**Why the output**: The command will list the contents of the directory we passed in. We can think this functions as a "preview" of a directory, and the user will be in the same directory after executing the command.
 **Is it an error?**: The output is not an error because `Hello.class`, `Hello.java`, `README`, and `messages` all fall under the `lecture1` directory.
 
 
@@ -20,7 +20,7 @@
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: `/Users/wanfranek/lecture1`<br>
 **Why the output**: `ls` shows the content of a directory, but the argument here is the path to a filename.<br>
-**Is it an error?**: The output is not an error because when you try to `ls [filename]`, it will just repeat the name of the file and any relative information requested.
+**Is it an error?**: The output is not an error because when you try to `ls [filename]`, it will just repeat the name of the file or the abosulate path the user typed in that is after `ls`
 
 
   
@@ -44,7 +44,7 @@
 - Command with a path to a file as an argument<br>
 <img src="cd_filename.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
-**Absolute path after**: No path cause error<br>
+**Absolute path after**: `/Users/wanfranek/lecture1`<br>
 **Why the output**: You can only `cd` into a directory but not a file<br>
 **Is it an error?**: The ouptu is an error. The picture above shows that `cd` only suports a directory name as a argument.
 
@@ -62,7 +62,7 @@
 <img src="cat_directory.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: N/A cause error<br>
-**Why the output**: `cat` cannot show the content of a directory, only ls can.<br>
+**Why the output**: `cat` cannot show the content of a directory, only `ls` can.<br>
 **Is it an error?**: The output is an error because `cat` only reads the content of the file and does not accept a directory path as the argument.
 
   
