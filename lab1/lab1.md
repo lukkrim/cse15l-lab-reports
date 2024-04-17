@@ -4,7 +4,7 @@
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: `/Users/wanfranek/lecture1`<br>
 **Why the output**: It simply displays the content inside `lecture1` directory<br>
-**Is it an error?**: The output is not an error because `Hello.class`, `Hello.java`, `README`, and `messages` all fall under the lecture 1 directory.
+**Is it an error?**: The output is not an error because `Hello.class`, `Hello.java`, `README`, and `messages` all fall under the `lecture1` directory.
 
 
 - Command with a path to a directory as an argument<br>
@@ -12,7 +12,7 @@
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: `/Users/wanfranek/lecture1`<br>
 **Why the output**: It functions the same as the no argument example. It just uses an abosulete path to represent we want to see the content of the current working directory `lecture1`.<br>
-**Is it an error?**: The output is not an error because `Hello.class`, `Hello.java`, `README`, and `messages` all fall under the lecture 1 directory.
+**Is it an error?**: The output is not an error because `Hello.class`, `Hello.java`, `README`, and `messages` all fall under the `lecture1` directory.
 
 
 - Command with a path to a file as an argument<br>
@@ -37,7 +37,7 @@
 <img src="cd_directory.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: `/Users/wanfranek/lecture1/messages`<br>
-**Why the output**: It goes in to the message directory that is inside the lecture 1 folder<br>
+**Why the output**: It goes in to the message directory that is inside the `lecture1` folder<br>
 **Is it an error?**: The output is not an error.
 
   
@@ -54,7 +54,7 @@
 <img src="cat_noArg.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: N/A because it's in the mode of reading data from standard input adn write them to standard ouput<br>
-**Why the output**: It basically does nothing because it just repeat what's the user typed in. The cat command will end when user hit control+D to indicate the end of the file<br>
+**Why the output**: It basically does nothing because it just repeat what's the user typed in. The `cat` command will end when user hit control+D to indicate the end of the file<br>
 **Is it an error?**: The output is not an error.
 
   
@@ -62,15 +62,15 @@
 <img src="cat_directory.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: N/A cause error<br>
-**Why the output**: cat cannot show the content of a directory, only ls can.<br>
-**Is it an error?**: The output is an error because cat only reads the content of the file and does not accept a directory path as the argument.
+**Why the output**: `cat` cannot show the content of a directory, only ls can.<br>
+**Is it an error?**: The output is an error because `cat` only reads the content of the file and does not accept a directory path as the argument.
 
   
 - Command with a path to a file as an argument<br>
 <img src="cat_filename.png"><br>
 **Absolute path before**: `/Users/wanfranek/lecture1`<br>
 **Absolute path after**: `/Users/wanfranek/lecture1/README`<br>
-**Why the output**: It find the README file under the lecture 1 directory and reads its content.<br>
+**Why the output**: It find the README file under the `lecture1` directory and reads its content.<br>
 **Is it an error?**: The output is not an error.
 
   
