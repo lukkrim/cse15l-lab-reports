@@ -1,4 +1,4 @@
-## Part 1
+## Part 1 - Bugs
 **Bug Chosen: testReverseInPlace method in the ArrayExamples.java**
 1. **Failer-inducing input**
 ```
@@ -10,7 +10,7 @@ public void testReverseInPlace() {
 }
 ```
 
-2. **An input that doesn't indue a failure**
+2. **An input that doesn't induce a failure**
 ```
 @Test 
 public void testReverseInPlace() {
@@ -66,5 +66,9 @@ For example, here is a demonstration on how the correct method works<br>
 `[4,3,2,4]`: `arr[2] = temp[1]`<br>
 `[4,3,2,1]`: `arr[3] = temp[0]`<br><br>
 
-## Part 2
+## Part 2 - Researching Command
+**Grep Command**<br>
+grep -i, --ignore-case: "Perform case insensitive matching.  By default, grep is case sensitive."
+grep -r, --recursive: "Recursively search subdirectories listed."
+
 
