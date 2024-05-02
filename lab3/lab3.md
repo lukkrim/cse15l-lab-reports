@@ -20,4 +20,9 @@ public void testReverseInPlace() {
 }
 ```
 
-3. **Symptoms of passed test**
+3. **Symptoms**<br>
+Passed Test<br>
+<img src = "passed.png"><br><br>
+
+Failed Test<br>
+<img src = "failed.png"><br><br>
