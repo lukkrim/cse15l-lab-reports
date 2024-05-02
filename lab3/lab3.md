@@ -68,7 +68,7 @@ For example, here is a demonstration on how the correct method works<br>
 
 ## Part 2 - Researching Command
 **Grep Command**<br>
-`grep -i`, --ignore-case: "Perform case insensitive matching.  By default, grep is case sensitive."<br>
+**`grep -i`, --ignore-case: "Perform case insensitive matching.  By default, grep is case sensitive."**<br>
 Example 1:<br>
 ```
 wanfranek@Samsons-MacBook-Pro Media % grep -i "legal" AP_LawSchoolDebts.txt 
@@ -93,7 +93,7 @@ The median starting salary last year at private law firms, was
 ```
 The -i option is useful beacuse sometimes the keyword we are searcing for is being capitalized as the first word of a sentence. In order to receive all the line with matching pattern, we can use -i to ensure that we do not miss anything important.<br>
 
-`grep -r`, --recursive: "Recursively search subdirectories listed."<br>
+**`grep -r`, --recursive: "Recursively search subdirectories listed."**<br>
 Example 1:<br>
 ```
 wanfranek@Samsons-MacBook-Pro technical % grep -r "base pair" plos
@@ -124,11 +124,11 @@ biomed/1475-2867-2-15.txt:        post-translational modification of nuclear hor
 ```
 The default grep command is intended to use on a file and search an specific pattern within that file. However, if we want to search the pattern for every file under the directory, we have to perform this command for (number of files) times. With the -r recursive search commnad line option, the terminal can automatically loop through each file within the given directory based on he given pattern and list everything out as one output. 
 
-`grep -o`, --only-matching: "Prints only the matching part of the lines."<br>
+**`grep -o`, --only-matching: "Prints only the matching part of the lines."**<br>
 Example 1:<br>
 Example 2:<br>
 
-`grep -l`, --files-with-matches: "Only the names of files containing selected lines are written to standard output."<br>
+**`grep -l`, --files-with-matches: "Only the names of files containing selected lines are written to standard output."**<br>
 Example 1:<br>
 
 Example 2:<br>
