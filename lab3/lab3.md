@@ -58,5 +58,11 @@ For example, here is a demonstration on how the wrong method works<br>
 `[4,3,3,4]`: `arr[1] = arr[2]`<br>
 `[4,3,3,4]`: `arr[2] = arr[1]`<br>
 `[4,3,3,4]`: `arr[3] = arr[0]`<br><br>
-For the fixed function, I first create a temperaory array that copies all the elements of the original array over. Therefore, when we perform the setting line of code, we will use `arr[i] = temp[arr.length - i - 1]` instead of `arr[i] = arr[arr.length - i - 1]` so that we will use the original value of each element from the temp array.
+For the fixed function, I first create a temperaory array that copies all the elements of the original array over. Therefore, when we perform the setting line of code, we will use `arr[i] = temp[arr.length - i - 1]` instead of `arr[i] = arr[arr.length - i - 1]` so that we will use the original value of each element from the temp array.<br>
+For example, here is a demonstration on how the correct method works<br>
+`[1,2,3,4]`<br>
+`[4,2,3,4]`: `arr[0] = temp[3]`<br>
+`[4,3,3,4]`: `arr[1] = temp[2]`<br>
+`[4,3,2,4]`: `arr[2] = temp[1]`<br>
+`[4,3,2,1]`: `arr[3] = temp[0]`<br><br>
 
