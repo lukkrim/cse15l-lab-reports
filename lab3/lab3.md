@@ -68,7 +68,11 @@ For example, here is a demonstration on how the correct method works<br>
 
 ## Part 2 - Researching Command
 **Grep Command**<br>
-grep -i, --ignore-case: "Perform case insensitive matching.  By default, grep is case sensitive."
-grep -r, --recursive: "Recursively search subdirectories listed."
+`grep -i`, --ignore-case: "Perform case insensitive matching.  By default, grep is case sensitive."<br>
+`grep -r`, --recursive: "Recursively search subdirectories listed."<br>
+`grep -o`, --only-matching: "Prints only the matching part of the lines."<br>
+
+**Source**<br>
+I managed to these 4 intersting commnad line options of `grep` by using `man grep` in the terminal.
 
 
