@@ -69,10 +69,52 @@ For example, here is a demonstration on how the correct method works<br>
 ## Part 2 - Researching Command
 **Grep Command**<br>
 `grep -i`, --ignore-case: "Perform case insensitive matching.  By default, grep is case sensitive."<br>
+Example 1:<br>
+Example 2:<br>
+
 `grep -r`, --recursive: "Recursively search subdirectories listed."<br>
+Example 1:<br>
+```
+wanfranek@Samsons-MacBook-Pro technical % grep -r "base pair" plos
+plos/journal.pbio.0020223.txt:        Watson-Crick base pairing, the proximity of the synthetic reactive groups elevates their
+plos/journal.pbio.0020190.txt:        sequence, which is a specific series of eight base pairs in the DNA of the bacterial
+plos/journal.pbio.0020190.txt:        chromosomes, on the order of one or two thousand base pairs of DNA (or less—their length i
+```
+Example 2:<br>
+```
+wanfranek@Samsons-MacBook-Pro technical % grep -r "post-translational modification" biomed
+biomed/1471-2121-3-12.txt:        post-translational modifications may play a role in
+biomed/ar422.txt:          Analysis of post-translational modifications in
+biomed/1471-2164-4-19.txt:        post-translational modification. In ChIP, whole cells are
+biomed/1471-2202-3-3.txt:          post-translational modification of the translational
+biomed/1475-4924-1-10.txt:            accumulated following post-translational modification.
+biomed/1476-511X-1-2.txt:        transcription factors, post-translational modifications,
+biomed/1471-2091-2-7.txt:        post-translational modification of regulatory proteins by
+biomed/gb-2003-4-3-r18.txt:        post-translational modification in addition to
+biomed/1471-2164-3-26.txt:          post-translational modification sites and nuclear
+biomed/gb-2001-3-1-research0001.txt:        post-translational modification, permeability properties
+biomed/1472-6793-2-5.txt:        demonstrate that there is a post-translational modification
+biomed/1472-6793-2-5.txt:          post-translational modification on wild-type pR is
+biomed/1472-6793-2-5.txt:          post-translational modification of unknown nature.
+biomed/1472-6793-2-5.txt:        post-translational modifications, including ~4000 daltons
+biomed/1472-6793-2-5.txt:        post-translational modifications might also play a role in
+biomed/1471-2407-1-15.txt:        NMT-4, a post-translational modification, such as
+biomed/1475-2867-2-15.txt:        post-translational modification of nuclear hormone
+```
+The default grep command is intended to use on a file and search an specific pattern within that file. However, if we want to search the pattern for every file under the directory, we have to perform this command for (number of files) times. With the -r recursive search commnad line option, the terminal can automatically loop through each file within the given directory based on he given pattern and list everything out as one output. 
+
 `grep -o`, --only-matching: "Prints only the matching part of the lines."<br>
+Example 1:<br>
+Example 2:<br>
+
+`grep -l`, --files-with-matches: "Only the names of files containing selected lines are written to standard output."<br>
+Example 1:<br>
+
+Example 2:<br>
 
 **Source**<br>
-I managed to these 4 intersting commnad line options of `grep` by using `man grep` in the terminal.
+I managed to find these 4 intersting command line options of `grep` by using `man grep` in the terminal.<br>
+Here is a screenshot of what I recieved after inputting the command into the terminal:<br>
+<img src = "man_grep.png">
 
 
