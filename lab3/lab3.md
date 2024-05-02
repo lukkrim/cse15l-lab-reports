@@ -70,7 +70,28 @@ For example, here is a demonstration on how the correct method works<br>
 **Grep Command**<br>
 `grep -i`, --ignore-case: "Perform case insensitive matching.  By default, grep is case sensitive."<br>
 Example 1:<br>
+```
+wanfranek@Samsons-MacBook-Pro Media % grep -i "legal" AP_LawSchoolDebts.txt 
+Legal education debt, which tops $84,000 for the average new
+surveyed - government offices, legal aid organizations, public
+```
 Example 2:<br>
+```
+wanfranek@Samsons-MacBook-Pro Media % grep -i "law" AP_LawSchoolDebts.txt 
+Law school debts forcing recruits to private sector
+WASHINGTON (AP) - Most new lawyers won't consider working for
+lawyer, prevents 66 percent of law students from taking public
+the National Association for Law Placement and the Partnership for
+"The bottom line is America's law school graduates are drowning
+More than 94 percent of law students reported borrowing money to
+attend law school, where median tuition is nearly $23,000 a year,
+but law students are not alone in having to contend with spiraling
+In the law study, about 68 percent of public interest employers
+and high law school loans for discouraging law students from public
+The report encourages law schools and employers to create
+The median starting salary last year at private law firms, was
+```
+The -i option is useful beacuse sometimes the keyword we are searcing for is being capitalized as the first word of a sentence. In order to receive all the line with matching pattern, we can use -i to ensure that we do not miss anything important.<br>
 
 `grep -r`, --recursive: "Recursively search subdirectories listed."<br>
 Example 1:<br>
