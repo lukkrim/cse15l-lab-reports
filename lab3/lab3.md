@@ -122,16 +122,67 @@ biomed/1472-6793-2-5.txt:        post-translational modifications might also pla
 biomed/1471-2407-1-15.txt:        NMT-4, a post-translational modification, such as
 biomed/1475-2867-2-15.txt:        post-translational modification of nuclear hormone
 ```
-The default grep command is intended to use on a file and search an specific pattern within that file. However, if we want to search the pattern for every file under the directory, we have to perform this command for (number of files) times. With the -r recursive search commnad line option, the terminal can automatically loop through each file within the given directory based on he given pattern and list everything out as one output. 
+The default grep command is intended to use on a file and search an specific pattern within that file. However, if we want to search the pattern for every file under the directory, we have to perform this command for (number of files) times. With the -r recursive search commnad line option, the terminal can automatically loop through each file within the given directory based on he given pattern and list everything out as one output.<br>
 
 **`grep -o`, --only-matching: "Prints only the matching part of the lines."**<br>
 Example 1:<br>
+```
+wanfranek@Samsons-MacBook-Pro About_LSC % grep -o "System" reporting_system.txt 
+System
+System
+System
+System
+System
+System
+System
+System
+```
 Example 2:<br>
+```
+wanfranek@Samsons-MacBook-Pro About_LSC % grep -o "programs" reporting_system.txt
+programs
+programs
+programs
+programs
+programs
+programs
+programs
+programs
+programs
+programs
+programs
+programs
+programs
+programs
+programs
+programs
+programs
+programs
+programs
+```
+
+The -o command option is useful because it displays the matching part of the file in a very clear manner and the terminal result will become way more neater. As a result, the user can easily know how many times the pattern appears. The bad thing is we won't be able to know the sentence/context the keywrod belongs to.<br>
 
 **`grep -l`, --files-with-matches: "Only the names of files containing selected lines are written to standard output."**<br>
 Example 1:<br>
-
+```
+wanfranek@Samsons-MacBook-Pro government % grep -rl "height" Media
+Media/The_State_of_Pro_Bono.txt
+Media/Farm_workers.txt
+```
 Example 2:<br>
+```
+Media/Farm_workers.txt
+wanfranek@Samsons-MacBook-Pro government % grep -rl "nothing" Media
+Media/Legal_system_fails_poor.txt
+Media/Higher_Registration_Fees.txt
+Media/Making_a_case.txt
+Media/Farm_workers.txt
+Media/Greedy_Generous.txt
+Media/Retirement_Has_Its_Appeal.txt
+```
+
+The -l command line option is really useful because it will display the **unique** files that contain the keyword under the targed directory. Even though some file has the keyword appearing multiple times, it will onyl be displayed once.<br>
 
 **Source**<br>
 I managed to find these 4 intersting command line options of `grep` by using `man grep` in the terminal.<br>
