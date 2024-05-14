@@ -20,6 +20,16 @@
 <img src = "step7_1.png" width = 50% height = 50%><br>
 <img src = "step7_2.png" width = 50% height = 50%><br><br>
 
+`?index1<enter>`<br>
+
+`<right><right><right><right><right>` to toggle the cursor on to the number 1
+`x` to delete 1
+`i` to enter into insert mode
+`2` to enter the new value 2
+`esc` to exit the insert mode
+`:wq<enter>` to save and quit
+
+
 Mouse click
 **Step 8**<br>
 **Step 9**<br>
