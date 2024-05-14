@@ -37,6 +37,10 @@
 <img src = "step7_6.png" width = 50% height = 50%><br><br>
 
 **Step 8**<br>
+`ls<enter>` to show the content of the home directory<br>
+`bash<space>test.sh<enter>` to run the bash script<br>
 
 **Step 9**<br>
-
+`git<space>add<space>.` to adds all modified and new files(including all subdirectoeries) in the current directory to the staging area<br>
+`git<space>commit<space>-m<space>"ListExample.java Fixed"` to commit all files in the staging area with commit message "ListExample.java Fixed"<br>
+`git<space>push` to push all the commited files to the origin main on github
