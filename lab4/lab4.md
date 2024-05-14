@@ -1,7 +1,7 @@
 ## Lab Report 4 - Vim
 **Step 4**<br>
 `ssh<space>r1wan@ieng6.ucsd.edu<enter>` to gain access to the SSH remote server<br>
-<img src = "step4.png"><br><br>
+<img src = "step4.png" width="50%" height="50%"><br><br>
 
 **Step 5**<br>
 `git<space>clone<space>git@github.com:lukkrim/lab7.git<enter>` to clone the github repo using SSH key<br>
