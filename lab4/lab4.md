@@ -20,14 +20,18 @@
 <img src = "step7_1.png" width = 50% height = 50%><br>
 <img src = "step7_2.png" width = 50% height = 50%><br><br>
 
-`?index1<enter>`<br>
+`?index1<enter>` to search for the location of the error<br>
+<img src = "step7_3.png" width = 50% height = 50%><br><br>
 
-`<right><right><right><right><right>` to toggle the cursor on to the number 1
-`x` to delete 1
-`i` to enter into insert mode
-`2` to enter the new value 2
-`esc` to exit the insert mode
-`:wq<enter>` to save and quit
+`<right><right><right><right><right>` to toggle the cursor on to the number 1<br>
+<img src = "step7_5.png" width = 50% height = 50%><br><br>
+
+`x` to delete 1<br>
+`i` to enter into insert mode<br>
+`2` to enter the new value 2<br>
+`esc` to exit the insert mode<br>
+`:wq<enter>` to save and quit<br>
+<img src = "step7_4.png" width = 50% height = 50%><br><br>
 
 
 Mouse click
