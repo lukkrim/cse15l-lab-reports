@@ -6,12 +6,15 @@
 `git<space>clone<space>git@github.com:lukkrim/lab7.git`<br>
 
 **Step 6**<br>
-`cd<space>lab7`
-`ls`
-`bash<space>test.sh`
-
+`ls`<br>
+`cd<space>lab7`<br>
+`ls`<br>
+`bash<space>test.sh`<br>
 
 **Step 7**<br>
+`ls`<br>
+`vim<space>ListExamples.java`<br>
+
 **Step 8**<br>
 **Step 9**<br>
 
