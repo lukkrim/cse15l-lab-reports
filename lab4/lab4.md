@@ -33,7 +33,7 @@
 `:wq<enter>` to save and quit<br>
 <img src = "step7_5.png" width = 50% height = 50%><br><br>
 
-`clear<enter>` to clear the terminal
+`clear<enter>` to clear the terminal<br>
 <img src = "step7_6.png" width = 50% height = 50%><br><br>
 
 **Step 8**<br>
