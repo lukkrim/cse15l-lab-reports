@@ -9,3 +9,8 @@ Is this beacuse the element at index 2 got assigned to the wrong value somehow?<
 
 Instructor: <br>
 Yes, you might want to check the process when u reverse the array
+
+
+**Part 2**<br>
+Reflection:<br>
+For the second half of the qurater, I learned a lot more new things. Even though I am familiar with test editors such as vim and nano, I still manged to learn many new command line shortcut of vim such as searching for elements from the end of teh file. The jdb debugger is completetly new to me ad I learned how to stop at certain line and capture the intedned error through viewing local varible values. It's a really fun experience learning in CSE 15L this quarter and I enjoy doing the lab and taking the skill demo.
