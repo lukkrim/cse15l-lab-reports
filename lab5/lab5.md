@@ -13,7 +13,15 @@ Maybe try to print out the new value the array element got assigned to in your i
 
 Student:<br>
 I added a print statement in my function<br>
+<img src = "2.png" width = "50%" height = "50%"><br><br>
+I noticed that the element at index 2 got assigned to 3 again<br>
+<img src = "3.png" width = "50%" height = "50%"><br><br>
 
+Instructor: <br>
+What if your array has changed while you are assigning these values?<br>
+
+Student: <br>
+Oh, I see. The last element got assigned to the first element with the value after the update.<br>
 
 
 **Part 2**<br>
