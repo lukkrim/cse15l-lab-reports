@@ -25,8 +25,9 @@ What if your array has changed while you are assigning these values?<br>
 
 Student: <br>
 Oh, I see. The last element got assigned to the first element with the value after the update.<br>
-So what I need to do is to create a temporary array to store all the elements of the old array in their.<br>
+So what I need to do is to create a temporary array to store all the elements of the old array and set the values.<br>
 Here is a update version of my code and they seems to be working. Thank you for the help!
+<img src = "4.png" width = "50%" height = "50%"><br><br>
 
 
 
