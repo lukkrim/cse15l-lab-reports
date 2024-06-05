@@ -8,7 +8,12 @@ Is this beacuse the element at index 2 got assigned to the wrong value somehow?<
 <img src = "1.png" width = "50%" height = "50%"><br><br>
 
 Instructor: <br>
-Yes, you might want to check the process when u reverse the array
+Yes, you might want to check the process when u reverse the array<br>
+Maybe try to print out the new value the array element got assigned to in your iteration.
+
+Student:<br>
+I added a print statement in my function<br>
+
 
 
 **Part 2**<br>
